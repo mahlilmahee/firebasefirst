@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- it is the link of css from bootstrap and link is given below here check it our -->
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+</head>
+<body>
+    <header >
+        <nav class="navbar fixed-top  navbar-expand-lg navbar-dark bg-success">
+            <div class="container">
+              <a class="navbar-brand" href="#"><img src="pandas/logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active fs-4" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-4" href="#shoes">Shoes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-4" href="#Bagpacks">Bagpacks</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-4" href="#subscribe">subscrive</a>
+                  </li>
+                 
+                
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-warning" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+    </header>
+<main>
+<section class="container" style="padding-top: 100px;" >
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button style="background-color: blue;" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" style="background-color: blue;" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button"  style="background-color: blue;" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner ">
+      <div class="carousel-item container  active">
+        <div class="row p-5 d-flex align-items-center" style="background-color: #FCEAE8;">
+        <div class="col-lg-7 col-md-6 col-12">
+          <h1> Mega LCD TV For Sports</h1>
+          <p>This is the best tv for the people who just want to waste their time in front of fake tv.</p>
+          <h2> $3000</h2>
+          <div class="btn btn-info border rounded-pill btn-outline-dark border-2 border-danger">Buy here </div>
+        </div>
+        <div class="col-lg-5 col-md-4 col-12  ">
+          <img src="pandas/banner-images/tv.png" class="d-block w-100" alt="...">
+        </div>
+        </div>
+        
+      </div>
+      <div class="carousel-item">
+         <div class="row p-5 d-flex align-items-center" style="background-color: #FCEAE8;">
+            <div class="col-lg-7 col-md-6 col-12">
+              <h1> Mega discount headphones</h1>
+              <p>This is the best tv for the people who just want to waste their ear .</p>
+              <h2> $500</h2>
+              <div class="btn btn-info border rounded-pill btn-outline-dark border-2 border-danger">Buy here </div>
+            </div>
+            <div class="col-lg-5 col-md-4 col-12">
+              <img src="pandas/banner-images/headphone.png" class="d-block w-100" alt="...">
+            </div>
+            </div>
+      </div>
+      <div class="carousel-item">
+        <div class="row p-5 d-flex align-items-center" style="background-color: #FCEAE8;">
+          <div class="col-lg-7 col-md-6 col-12 ">
+            <h1> Mega LCD TV For Sports</h1>
+            <p>This is the best tv for the people who just want to waste their time playing fake game.</p>
+            <h2> $895</h2>
+            <div class="btn btn-info border rounded-pill btn-outline-dark border-2 border-danger">Buy here </div>
+          </div>
+          <div class="col-lg-5 col-md-4 col-12s">
+            <img src="pandas/banner-images/xbox.png" class="d-block w-100" alt="...">
+          </div>
+          </div>
+      </div>
+    </div> 
+    <button class="carousel-control-prev d-flex justify-content-start " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: rgb(173, 173, 250);"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next d-flex justify-content-space-evenly" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: rgb(173, 173, 250);"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="container">
+    <div class="row g-5 pt-5 ">
+      <div class="col-lg-4 col-md-6 col-12 ">
+       <div class=" p-3 border d-flex justify-content-between align-items-center bg-warning">
+           <h2> Watch</h2>
+           <img src="pandas/categories/watch.png" alt="">
+        </div>
+      </div>
+      <div class="col-lg-4  col-md-6 col-12">
+        <div class=" p-3 border d-flex justify-content-between align-items-center bg-success">
+          <h2> Shoe</h2>
+          <img src="pandas/categories/shoes.png" alt="">
+       </div>
+      </div>
+      <div class="col-lg-4  col-md-6 col-12">
+        <div class=" p-3 border d-flex justify-content-between align-items-center bg-primary ">
+          <h2> Bag</h2>
+          <img src="pandas/categories/bag.png" alt="">
+       </div>  
+      </div>
+    
+    </div>
+  </div>
+
+<div class="container mt-5" id="shoes">
+  <h1>shoes</h1>
+  <div class="row row-cols-1 row-cols-md-3 row-cols-sm-1 row-cols-bg-3 g-4">
+    <div class="col ">
+      <div class="card h-100 p-2 shadow p-3 mb-5 bg-body rounded">
+        <img src="pandas/shoes/shoe-1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">American shoe <br>$321</h5>
+          <p class="card-text">This is one of the best elastic shoe in our company and I have a dream to buy it for myself</p>
+        </div>
+        <div class="ps-3 ">
+          <small class="text-muted"> <button class="btn btn-danger btn-lg"> Buy Now</button></small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 p-2 shadow p-3 mb-5 bg-body rounded">
+        <img src="pandas/shoes/shoe-2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nike 432 <br>$321</h5>
+          <p class="card-text">This is one of the best elastic shoe in our company and I have a dream to buy it for myself</p>
+        </div>
+        <div class="ps-3">
+          <small class="text-muted"> <button class="btn btn-danger btn-lg"> Buy Now</button></small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 p-2 shadow p-3 mb-5 bg-body rounded">
+        <img src="pandas/shoes/shoe-3.png " class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Panda grp<br>$321</h5>
+          <p class="card-text">This is one of the best elastic shoe in our company and I have a dream to buy it for myself</p>
+        </div>
+        <div class="ps-3">
+          <small class="text-muted"> <button class="btn btn-danger btn-lg"> Buy Now</button></small>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container mt-5" id="Bagpacks">
+  <h1> Bagpacks</h1>
+  <div class="row row-cols-1 row-cols-md-3 row-cols-sm-1 row-cols-bg-3 g-4">
+    <div class="col">
+      <div class="card h-100 p-2 shadow p-3 mb-5 bg-body rounded">
+        <img src="pandas/bags/bag-1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Reb strawberry bag <br>$321</h5>
+          <p class="card-text">This is one of the best elastic shoe in our company and I have a dream to buy it for myself</p>
+        </div>
+        <div class="ps-3">
+          <small class="text-muted"> <button class="btn btn-danger btn-lg"> Buy Now</button></small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 p-2 shadow p-3 mb-5 bg-body rounded">
+        <img src="pandas/bags/bag-2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Blue stack bag <br>$321</h5>
+          <p class="card-text">This is one of the best elastic shoe in our company and I have a dream to buy it for myself</p>
+        </div>
+        <div class="ps-3">
+          <small class="text-muted"> <button class="btn btn-danger btn-lg"> Buy Now</button></small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 p-2 shadow p-3 mb-5 bg-body rounded">
+        <img src="pandas/bags/bag-3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Black Belt Bag<br>$321</h5>
+          <p class="card-text">This is one of the best elastic shoe in our company and I have a dream to buy it for myself</p>
+        </div>
+        <div class="ps-3">
+          <small class="text-muted"> <button class="btn btn-danger btn-lg"> Buy Now</button></small>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+<div class="container bg-dark text-white d-flex justify-content-center align-items-center mt-5 border rounded-3" style="height: 300px;"> 
+  <div>
+    <h1>LET'S STAY IN TOUCH</h1>
+    <p>Get updates on sales, specials and more</p>
+    <input type="email" name="" id="" placeholder="enter your email">
+    <br>
+    <button class="btn btn-info" > Send</button>
+  </div>
+
+</div>
+</main>
+<footer>
+<p class="text-center mt-5" id="subscribe">
+  ©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.
+</p>
+</footer>
+    <!-- it is the link of bootstrap javascript down here please check it out here  -->
+
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>

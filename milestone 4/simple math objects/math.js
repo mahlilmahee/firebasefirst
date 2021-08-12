@@ -1,0 +1,10 @@
+ var value = -132.946434;
+ var hello = Math.abs(value);
+ var hi = Math.round(hello);
+ var hei =Math.trunc(hello);
+ console.log( hello);
+ console.log(hi);
+ console.log(hei);
+ var x =Math.random() ;
+ var xx = Math.round(x)*10;
+ console.log(xx);

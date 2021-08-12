@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calender for myself</title>
+   <style>
+      .calender{
+           display: grid;
+           grid-template-columns: repeat(7,1fr);
+           grid-gap: 1em;
+
+      }
+      section{
+          padding: 6px;
+         
+           border: 14px solid rgb(75, 4, 16);
+           border-radius: 20px;
+           background-repeat: no-repeat;
+      }
+      .date {
+           background-color: rgb(234, 243, 102);
+           height: 30px;
+           width: auto;
+           border: rgb(180, 179, 184) 4px solid;
+           border-radius: 7px;
+           display:flex;
+           justify-content: center;
+           align-items: center;
+      }
+      .day{
+           display:flex;
+           height: 28px;
+           font-size: 30px;
+           grid-template-columns:repeat(7 ,1fr);
+           background-color: rgb(26, 51, 77);
+           border-radius: 5px;
+           justify-content: center;
+           align-items: center;
+           color: orangered;
+      }
+      .date:hover{ 
+          color: orangered;
+          background-color: skyblue;
+      }
+      .month{
+           background-color: linen;
+      }
+      .today{
+           color: slateblue;
+           background-color: springgreen;
+      }
+      h3{
+           text-align: center;
+           background-color: tomato;
+      }
+  
+  
+ p{
+      
+      color: darkblue;
+      background-size: auto;
+      background-color: darkolivegreen;
+      height: 45px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2em;
+      margin: 1%;
+ }
+ p:hover{
+      color: deeppink;
+      background-color: lavender;
+ }
+ </style>
+    </title>
+</head>
+<body>
+  <section><div class="div">
+    <p> 2021</p>
+    <p> july month</p>
+</div>
+  <div class="calender">
+      <div class="day">s</div>
+      <div class="day">m</div>
+      <div class="day">t</div>
+      <div class="day">w</div>
+      <div class="day today">t</div>
+      <div class="day">f</div>
+      <div class="day">s</div>
+      <div class="date other month ">30</div>
+      
+      <div class="date other month">31</div>
+      <div class="date">1</div>
+      <div class="date">2</div>
+      <div class="date">3</div>
+      <div class="date">4</div>
+      <div class="date">6</div>
+      <div class="date">5</div>
+      <div class="date">7</div>
+      <div class="date">8</div>
+      <div class="date">9</div>
+      <div class="date today">10</div>
+      <div class="date">11</div>
+      <div class="date">12</div>
+      <div class="date">13</div>
+      <div class="date">14</div>
+      <div class="date">15</div>
+      <div class="date">16</div>
+      <div class="date">17</div>
+      <div class="date">18</div>
+      <div class="date">19</div>
+      <div class="date">20</div>
+      <div class="date">21</div>
+      <div class="date">22</div>
+      <div class="date">23</div>
+      <div class="date">24</div>
+      <div class="date">25</div>
+      <div class="date">26</div>
+      <div class="date">27</div>
+      <div class="date">28</div>
+      <div class="date">29</div>
+    
+      <div class="date other month">1</div>
+      <div class="date other month">2</div>
+      <div class="date other month">3</div>
+  </div></section>
+</body>
+</html>

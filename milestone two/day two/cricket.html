@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+       img{
+            width: 50%;
+            transition: transform .s ease-in;
+            transform: rotate(30deg);
+            margin: 50px;
+
+            
+            
+       }
+      div:hover>img{
+           transform: rotate(-30deg);
+           transform-origin: top;
+           
+       } 
+       .cric{
+            width: 800px;
+            height: 700px;
+            border: 2px solid springgreen;
+       }
+       .ball{
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background-color: red;   
+            position: relative;
+            left: 236px;   
+            top: -300px;
+            transition: .2s  ease-out ;
+            }
+            div:hover>.ball{
+                transform: translate(400px ,-250px);
+            }
+           
+   </style>
+</head>
+<body>
+    <div class="cric">
+        <img src="1001403297.jpg" alt="">
+        <div class="ball"></div>
+
+    </div>
+</body>
+</html>
