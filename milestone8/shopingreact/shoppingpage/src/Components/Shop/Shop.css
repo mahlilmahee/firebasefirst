@@ -1,0 +1,18 @@
+.shopContainer{
+    display: grid;
+    grid-template-columns: 3fr 1fr ;
+}
+.products{
+    border-right: 2px solid lightblue;
+    text-align: left;
+}
+.inputdiv{
+     background-color: black;
+     width: 100%;
+}
+.inputdiv input { 
+     width:  50% ;
+     height:  40px;
+     font-family: 2rem;
+     
+}

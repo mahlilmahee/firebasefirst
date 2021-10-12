@@ -1,0 +1,22 @@
+img{
+    width: 20%;
+    margin-top: 10px;
+}
+.headertop a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 1.3rem;margin-left: 30px; 
+   
+}
+.headertop{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: left;
+     text-align: center;
+}
+.headertop a:hover{
+    background-color: wheat;
+    color: rgba(255, 44, 7, 0.747);
+}
